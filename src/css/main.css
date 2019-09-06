@@ -1,0 +1,39 @@
+/*
+ * global
+ */
+/*
+ * colors
+ */
+/*
+ * typography
+ */
+/*
+ * font-size for typography
+ */
+/*
+ * incremental spacers by golden ratio
+ */
+/*
+ * transitions
+ */
+/*
+ * box-shadows
+ */
+/*
+ * bootstrap 4 overrides
+ */
+/** Bootstrap navbar fix (https://git.io/fADqW) */
+/*
+ * define bootstrap vars according to externally hosted bootstrap library
+ */
+/*
+ * utilities
+ */
+.font-script {
+  font-family: "bickham-script-pro-3", "clarendon-text-pro", Georgia, Times, "Times New Roman", serif; }
+
+/*
+ * layout
+ */
+body {
+  background-color: #fff; }
