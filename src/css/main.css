@@ -37,3 +37,69 @@
  */
 body {
   background-color: #fff; }
+
+svg.utk-svg {
+  transition: all 290ms ease-in-out;
+  width: 199px;
+  margin: 0 auto; }
+  svg.utk-svg.utk-svg-animated {
+    transition: all 110ms ease-in-out; }
+    svg.utk-svg.utk-svg-animated.utk-svg-animated-burst .cls-1 {
+      animation: loading-burst .29s ease-in-out 0s 1;
+      transform-origin: center; }
+    svg.utk-svg.utk-svg-animated.utk-svg-animated-burst .cls-2 {
+      animation: loading-burst .47s ease-in-out 0s 1;
+      transform-origin: center; }
+    svg.utk-svg.utk-svg-animated.utk-svg-animated-burst .cls-3 {
+      animation: loading-burst .76s ease-in-out 0s 1;
+      transform-origin: center; }
+    svg.utk-svg.utk-svg-animated.utk-svg-animated-burst .cls-a {
+      animation-duration: 0.47s !important; }
+    svg.utk-svg.utk-svg-animated.utk-svg-animated-burst .cls-b {
+      animation-duration: 0.76s !important; }
+    svg.utk-svg.utk-svg-animated.utk-svg-animated-burst .cls-c {
+      animation-duration: 1.05s !important; }
+    svg.utk-svg.utk-svg-animated.utk-svg-animated-burst .cls-left {
+      transform-origin: left;
+      animation: loading-slideX; }
+    svg.utk-svg.utk-svg-animated.utk-svg-animated-burst .cls-right {
+      transform-origin: right;
+      animation: loading-slideX 0.47s ease-in-out 0s 1; }
+    svg.utk-svg.utk-svg-animated.utk-svg-animated-burst .cls-top {
+      transform-origin: top;
+      animation: loading-slideY 0.47s ease-in-out 0s 1; }
+    svg.utk-svg.utk-svg-animated.utk-svg-animated-burst .cls-bottom {
+      transform-origin: bottom;
+      animation: loading-slideY 0.47s ease-in-out 0s 1; }
+    svg.utk-svg.utk-svg-animated.utk-svg-animated-burst .cls-white {
+      fill: #fff !important; }
+
+@keyframes loading-burst {
+  0% {
+    transform: scale3d(0, 0, 0); }
+  81% {
+    transform: scale3d(1.11, 1.11, 1.11); }
+  92% {
+    transform: scale3d(0.95, 0.95, 0.95); }
+  100% {
+    transform: scale3d(1, 1, 1); } }
+
+@keyframes loading-slideX {
+  0% {
+    transform: scale3d(0, 0, 0) translateX(500px); }
+  81% {
+    transform: scale3d(1.04, 1.04, 1.04) translateX(-3px); }
+  92% {
+    transform: scale3d(0.99, 0.99, 0.99) translateX(1px); }
+  100% {
+    transform: scale3d(1, 1, 1) translateX(0); } }
+
+@keyframes loading-slideY {
+  0% {
+    transform: scale3d(0, 0, 0) translateY(500px); }
+  81% {
+    transform: scale3d(1.04, 1.04, 1.04) translateY(-3px); }
+  92% {
+    transform: scale3d(0.99, 0.99, 0.99) translateY(1px); }
+  100% {
+    transform: scale3d(1, 1, 1) translateY(0); } }
