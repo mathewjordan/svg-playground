@@ -1,11 +1,13 @@
 import React from 'react';
-import logo from './logo.svg';
-import './css/main.css';
+import SVG from 'react-inlinesvg';
+import './css/main.css'
+
+import SVGSource from './media/svg/competency/competency_specialized.svg';
 
 function App() {
   return (
     <div className="App">
-      <img src={logo} className="App-logo" alt="logo" />
+        <SVG src={SVGSource} />
     </div>
   );
 }
